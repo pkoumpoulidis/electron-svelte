@@ -10,7 +10,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
 
-    "types": ["electron-vite/node"]
+    "types": ["electron-vite/node", "vite/client"]
   },
 
   "include": ["src/**/*.ts", "src/**/*.svelte", "electron.vite.config.ts"]

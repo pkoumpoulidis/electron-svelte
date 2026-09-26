@@ -1,0 +1,132 @@
+:root {
+  font-family: Inter, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  /* Background & surface hierarchy */
+  --color-canvas: #10131a;
+  --color-surface-1: #181d27;
+  --color-surface-2: #212838;
+  --color-surface-3: #2a3346;
+
+  /* Surface states */
+  --color-surface-hover: #303b51;
+  --color-surface-pressed: #141925;
+  --color-surface-selected: #273d65;
+  --color-surface-disabled: #171b24;
+
+  /* Text */
+  --color-text-primary: #f3f6fc;
+  --color-text-secondary: #b7c0d3;
+  --color-text-muted: #7f8aa3;
+  --color-text-disabled: #576176;
+  --color-text-on-accent: #ffffff;
+
+  /* Accent / interactive elements */
+  --color-accent: #7c9cff;
+  --color-accent-hover: #97b0ff;
+  --color-accent-pressed: #5e7ee4;
+  --color-accent-subtle: #25365f;
+  --color-accent-disabled: #36436b;
+
+  /* Borders */
+  --color-border-subtle: #2a3242;
+  --color-border-default: #414d64;
+  --color-border-strong: #65738d;
+  --color-focus-ring: #9bb4ff;
+
+  /* Status */
+  --color-danger: #ff7772;
+  --color-danger-subtle: #522a34;
+  --color-success: #63c694;
+  --color-warning: #f5bb62;
+
+  /* Spacing: use in padding, margin and gap */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-5: 1.5rem; /* 24px */
+  --space-6: 2rem; /* 32px */
+  --space-7: 3rem; /* 48px */
+
+  /* Borders */
+  --border-width-thin: 1px;
+  --border-width-thick: 2px;
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-pill: 9999px;
+
+  /* Typography */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-md: 1rem; /* 16px */
+  --font-size-lg: 1.25rem; /* 20px */
+  --font-size-xl: 1.5rem; /* 24px */
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 24%);
+  --shadow-md: 0 4px 12px rgb(0 0 0 / 30%);
+  --shadow-lg: 0 12px 28px rgb(0 0 0 / 40%);
+}
+
+/* Set <html data-theme="light"> to activate this palette. */
+:root[data-theme="light"] {
+  --color-canvas: #f5f7fb;
+  --color-surface-1: #ffffff;
+  --color-surface-2: #f8faff;
+  --color-surface-3: #eef3fb;
+
+  --color-surface-hover: #e8eef9;
+  --color-surface-pressed: #dce5f4;
+  --color-surface-selected: #dce8ff;
+  --color-surface-disabled: #f0f2f6;
+
+  --color-text-primary: #172033;
+  --color-text-secondary: #526079;
+  --color-text-muted: #77839a;
+  --color-text-disabled: #a7afbd;
+  --color-text-on-accent: #ffffff;
+
+  --color-accent: #456fe8;
+  --color-accent-hover: #315bd0;
+  --color-accent-pressed: #2549ad;
+  --color-accent-subtle: #dce8ff;
+  --color-accent-disabled: #aabce9;
+
+  --color-border-subtle: #e2e7f0;
+  --color-border-default: #cbd4e2;
+  --color-border-strong: #99a7ba;
+  --color-focus-ring: #456fe8;
+
+  --color-danger: #d94343;
+  --color-danger-subtle: #ffe5e5;
+  --color-success: #258557;
+  --color-warning: #b66b12;
+
+  --shadow-sm: 0 1px 2px rgb(26 42 70 / 8%);
+  --shadow-md: 0 4px 12px rgb(26 42 70 / 12%);
+  --shadow-lg: 0 12px 28px rgb(26 42 70 / 16%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--color-text-primary);
+  background: var(--color-canvas);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

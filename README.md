@@ -7,7 +7,7 @@ A minimal desktop-app starter built with Electron, Svelte 5, TypeScript and elec
 On GitHub, select **Use this template** and create a repository for your new application. Then clone your newly created repository:
 
 ```bash
-git clone https://github.com/pkoumpoulidis/electron-svelte.git your-app-name
+git clone https://github.com/pkoumpoulidis/electron-svelte.git <your-app-name>
 cd <your-app-name>
 npm install
 npm run dev
